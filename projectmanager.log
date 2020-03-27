@@ -1,0 +1,183 @@
+2020-03-28 00:01:59 [http-nio-8096-exec-10] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:03:31 [http-nio-8096-exec-6] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:03:35 [http-nio-8096-exec-7] INFO  i.s.p.controller.UserController - <-- Inside getAllUsers -->
+2020-03-28 00:03:39 [http-nio-8096-exec-9] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:03:46 [http-nio-8096-exec-10] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:04:02 [http-nio-8096-exec-4] INFO  i.s.p.controller.UserController - <-- Inside getAllUsers -->
+2020-03-28 00:04:14 [http-nio-8096-exec-8] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:04:38 [http-nio-8096-exec-2] INFO  i.s.p.controller.UserController - <-- Inside getAllUsers -->
+2020-03-28 00:05:01 [http-nio-8096-exec-8] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:05:17 [http-nio-8096-exec-10] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:05:22 [http-nio-8096-exec-1] INFO  i.s.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:53:00 [main] INFO  com.cts.fse.pm.ProjectControllerTest - Starting ProjectControllerTest on DELL-PC with PID 1588 (started by DELL in E:\FSE2020\FinalPM2020\FSEWS\ProjectManagerAPI)
+2020-03-28 00:53:00 [main] INFO  com.cts.fse.pm.ProjectControllerTest - The following profiles are active: test
+2020-03-28 00:53:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-28 00:53:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2886ms. Found 4 repository interfaces.
+2020-03-28 00:53:08 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cfa73c75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-28 00:53:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-28 00:53:09 [main] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-28 00:53:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-28 00:53:19 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-28 00:53:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-28 00:53:19 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-28 00:53:19 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-28 00:53:20 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-28 00:53:32 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fac80a8'
+2020-03-28 00:53:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:53:35 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:53:36 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-28 00:53:37 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2020-03-28 00:53:37 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2020-03-28 00:53:37 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 74 ms
+2020-03-28 00:53:37 [main] INFO  com.cts.fse.pm.ProjectControllerTest - Started ProjectControllerTest in 37.093 seconds (JVM running for 39.041)
+2020-03-28 00:53:38 [main] INFO  c.c.f.p.controller.ProjectController - Controller - suspend call for project.
+2020-03-28 00:53:38 [main] INFO  c.c.f.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:53:38 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.fse.pm.TaskControllerTest], using SpringBootContextLoader
+2020-03-28 00:53:38 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.fse.pm.TaskControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-28 00:53:38 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.fse.pm.TaskControllerTest]: TaskControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-28 00:53:38 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.fse.pm.ProjectmanagerApplication for test class com.cts.fse.pm.TaskControllerTest
+2020-03-28 00:53:38 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-03-28 00:53:38 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57927bc9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323efafe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@32dbca45, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2cc34cd5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@684b26b7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2de7c84a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4182a651, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7791ff50, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@46de118b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@55682482, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@10cb050, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@799fb45e]
+2020-03-28 00:53:38 [main] INFO  com.cts.fse.pm.TaskControllerTest - Starting TaskControllerTest on DELL-PC with PID 1588 (started by DELL in E:\FSE2020\FinalPM2020\FSEWS\ProjectManagerAPI)
+2020-03-28 00:53:38 [main] INFO  com.cts.fse.pm.TaskControllerTest - The following profiles are active: test
+2020-03-28 00:53:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-28 00:53:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 4 repository interfaces.
+2020-03-28 00:53:39 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cfa73c75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-28 00:53:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-03-28 00:53:39 [main] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-28 00:53:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-03-28 00:53:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-28 00:53:39 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-28 00:53:50 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fac80a8'
+2020-03-28 00:53:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:53:52 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:53:52 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-28 00:53:53 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2020-03-28 00:53:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2020-03-28 00:53:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 29 ms
+2020-03-28 00:53:53 [main] INFO  com.cts.fse.pm.TaskControllerTest - Started TaskControllerTest in 15.126 seconds (JVM running for 55.286)
+2020-03-28 00:53:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.fse.pm.UserControllerTest], using SpringBootContextLoader
+2020-03-28 00:53:53 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.fse.pm.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-28 00:53:53 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.fse.pm.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-28 00:53:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.fse.pm.ProjectmanagerApplication for test class com.cts.fse.pm.UserControllerTest
+2020-03-28 00:53:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-03-28 00:53:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b787274, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ec616d6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55b45ea1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@d5a72cd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45f95ac0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b77940f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4c418496, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@12d35bc9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1df32c09, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1aa31454, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5a8656a2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@52035328]
+2020-03-28 00:53:53 [main] INFO  com.cts.fse.pm.UserControllerTest - Starting UserControllerTest on DELL-PC with PID 1588 (started by DELL in E:\FSE2020\FinalPM2020\FSEWS\ProjectManagerAPI)
+2020-03-28 00:53:53 [main] INFO  com.cts.fse.pm.UserControllerTest - The following profiles are active: test
+2020-03-28 00:53:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-28 00:53:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 4 repository interfaces.
+2020-03-28 00:53:54 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cfa73c75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-28 00:53:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-03-28 00:53:54 [main] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-28 00:53:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2020-03-28 00:53:54 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-28 00:53:54 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-28 00:54:03 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fac80a8'
+2020-03-28 00:54:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:54:04 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:54:04 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-28 00:54:05 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2020-03-28 00:54:05 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2020-03-28 00:54:05 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 20 ms
+2020-03-28 00:54:05 [main] INFO  com.cts.fse.pm.UserControllerTest - Started UserControllerTest in 12.006 seconds (JVM running for 67.632)
+2020-03-28 00:54:05 [main] INFO  c.c.fse.pm.controller.UserController - <-- Inside getAllUsers -->
+2020-03-28 00:54:05 [main] INFO  c.c.fse.pm.controller.UserController - In User Controller - addUser
+2020-03-28 00:54:05 [main] INFO  c.c.fse.pm.controller.UserController - Controller - deleteUser call for User.
+2020-03-28 00:54:59 [main] INFO  com.cts.fse.pm.ProjectControllerTest - Starting ProjectControllerTest on DELL-PC with PID 4660 (started by DELL in E:\FSE2020\FinalPM2020\FSEWS\ProjectManagerAPI)
+2020-03-28 00:54:59 [main] INFO  com.cts.fse.pm.ProjectControllerTest - The following profiles are active: test
+2020-03-28 00:55:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-28 00:55:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152ms. Found 4 repository interfaces.
+2020-03-28 00:55:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ab7c5fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-28 00:55:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-28 00:55:03 [main] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-28 00:55:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-28 00:55:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-28 00:55:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-28 00:55:04 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-28 00:55:04 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-28 00:55:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-28 00:55:12 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4af12a63'
+2020-03-28 00:55:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:55:15 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:55:15 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-28 00:55:16 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2020-03-28 00:55:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2020-03-28 00:55:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 30 ms
+2020-03-28 00:55:16 [main] INFO  com.cts.fse.pm.ProjectControllerTest - Started ProjectControllerTest in 17.212 seconds (JVM running for 19.089)
+2020-03-28 00:55:17 [main] INFO  c.c.f.p.controller.ProjectController - Controller - suspend call for project.
+2020-03-28 00:55:17 [main] INFO  c.c.f.p.controller.ProjectController - <-- Inside getAllProjects -->
+2020-03-28 00:55:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.fse.pm.TaskControllerTest], using SpringBootContextLoader
+2020-03-28 00:55:17 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.fse.pm.TaskControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-28 00:55:17 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.fse.pm.TaskControllerTest]: TaskControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-28 00:55:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.fse.pm.ProjectmanagerApplication for test class com.cts.fse.pm.TaskControllerTest
+2020-03-28 00:55:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-03-28 00:55:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@684b26b7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2de7c84a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4182a651, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7791ff50, org.springframework.test.context.support.DirtiesContextTestExecutionListener@46de118b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@55682482, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10cb050, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@799fb45e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4f7ba0af, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b23c1f6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3f4964f2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bf01a01]
+2020-03-28 00:55:17 [main] INFO  com.cts.fse.pm.TaskControllerTest - Starting TaskControllerTest on DELL-PC with PID 4660 (started by DELL in E:\FSE2020\FinalPM2020\FSEWS\ProjectManagerAPI)
+2020-03-28 00:55:17 [main] INFO  com.cts.fse.pm.TaskControllerTest - The following profiles are active: test
+2020-03-28 00:55:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-28 00:55:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 4 repository interfaces.
+2020-03-28 00:55:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ab7c5fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-28 00:55:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-03-28 00:55:18 [main] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-28 00:55:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-03-28 00:55:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-28 00:55:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-28 00:55:23 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4af12a63'
+2020-03-28 00:55:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:55:25 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:55:25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-28 00:55:25 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2020-03-28 00:55:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2020-03-28 00:55:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 30 ms
+2020-03-28 00:55:25 [main] INFO  com.cts.fse.pm.TaskControllerTest - Started TaskControllerTest in 8.706 seconds (JVM running for 28.776)
+2020-03-28 00:55:26 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.fse.pm.UserControllerTest], using SpringBootContextLoader
+2020-03-28 00:55:26 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.fse.pm.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-28 00:55:26 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.fse.pm.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-28 00:55:26 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.fse.pm.ProjectmanagerApplication for test class com.cts.fse.pm.UserControllerTest
+2020-03-28 00:55:26 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-03-28 00:55:26 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55b45ea1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d5a72cd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@45f95ac0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3b77940f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c418496, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12d35bc9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1df32c09, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1aa31454, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5a8656a2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@52035328, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5614ae05, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54970127]
+2020-03-28 00:55:26 [main] INFO  com.cts.fse.pm.UserControllerTest - Starting UserControllerTest on DELL-PC with PID 4660 (started by DELL in E:\FSE2020\FinalPM2020\FSEWS\ProjectManagerAPI)
+2020-03-28 00:55:26 [main] INFO  com.cts.fse.pm.UserControllerTest - The following profiles are active: test
+2020-03-28 00:55:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-28 00:55:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 4 repository interfaces.
+2020-03-28 00:55:26 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ab7c5fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-28 00:55:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-03-28 00:55:26 [main] WARN  c.z.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-28 00:55:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2020-03-28 00:55:27 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-28 00:55:27 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-28 00:55:34 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4af12a63'
+2020-03-28 00:55:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:55:35 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:55:35 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-28 00:55:36 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2020-03-28 00:55:36 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2020-03-28 00:55:36 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 18 ms
+2020-03-28 00:55:36 [main] INFO  com.cts.fse.pm.UserControllerTest - Started UserControllerTest in 10.111 seconds (JVM running for 39.086)
+2020-03-28 00:55:36 [main] INFO  c.c.fse.pm.controller.UserController - <-- Inside getAllUsers -->
+2020-03-28 00:55:36 [main] INFO  c.c.fse.pm.controller.UserController - In User Controller - addUser
+2020-03-28 00:55:36 [main] INFO  c.c.fse.pm.controller.UserController - Controller - deleteUser call for User.
+2020-03-28 00:55:36 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:55:36 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:55:36 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-03-28 00:55:36 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:55:36 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:55:36 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-03-28 00:55:36 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 00:55:36 [Thread-10] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 00:55:36 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2020-03-28 00:55:36 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-03-28 00:55:36 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-03-28 00:55:36 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.

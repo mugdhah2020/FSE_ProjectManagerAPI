@@ -1,0 +1,9 @@
+package com.cts.fse.pm.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cts.fse.pm.entity.Parent;
+
+public interface ParentTaskDao extends JpaRepository<Parent, Long> {
+
+}
